@@ -1,5 +1,5 @@
 
-http://127.0.0.1:8000/sensor/8/
+GET http://127.0.0.1:8000/sensors/8/
 
 ###
 
@@ -11,8 +11,8 @@ POST http://127.0.0.1:8000/sensors/
 Content-Type: application/json
 
 {
-  "name": "4444",
-  "description": "Датчик на "
+  "name": "555",
+  "description": "Датчик  "
 }
 
 ###
