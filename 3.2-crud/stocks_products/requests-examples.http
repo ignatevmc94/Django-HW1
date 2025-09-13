@@ -2,6 +2,11 @@
 
 @baseUrl = http://localhost:8000/api/v1
 
+###
+GET {{baseUrl}}
+###
+
+
 # создание продукта
 POST {{baseUrl}}/products/
 Content-Type: application/json
@@ -30,7 +35,7 @@ Content-Type: application/json
 ###
 
 # удаление продукта
-DELETE {{baseUrl}}/products/1/
+DELETE {{baseUrl}}/products/2/
 Content-Type: application/json
 
 ###

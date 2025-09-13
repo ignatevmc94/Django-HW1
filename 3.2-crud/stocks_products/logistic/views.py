@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from rest_framework.viewsets import ModelViewSet
 
 from logistic.models import Product, Stock
@@ -14,3 +15,6 @@ class StockViewSet(ModelViewSet):
     queryset = Stock.objects.all()
     serializer_class = StockSerializer
     # при необходимости добавьте параметры фильтрации
+
+def hello(request):
+    return HttpResponse('Hello')
